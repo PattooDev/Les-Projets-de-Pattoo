@@ -73,17 +73,20 @@
           <article class="card">
             <div class="card-top">
               <span class="badge">C++ • Android • Vidéo</span>
-              <span class="version">en développement</span>
+              <span class="version">v1.5.1 stable • lecture NVR en cours</span>
             </div>
             <h3>GigaPaTChat</h3>
-            <p>Projet de client ouvert pour exploiter des équipements vidéo Gigamedia sans dépendre des anciennes interfaces Flash.</p>
+            <p>Client ouvert pour exploiter des équipements vidéo Gigamedia sans dépendre des anciennes interfaces Flash, avec un travail en cours sur la lecture des archives du NVR.</p>
             <ul>
-              <li>Client desktop open source</li>
-              <li>Exploration Android</li>
-              <li>Accès caméra local et distant étudié</li>
-              <li>Documentation des protocoles et essais</li>
+              <li>Visualisation locale des caméras par RTMP avec interface native SDL2</li>
+              <li>Protocole officiel de recherche d’archives <code>gw.cgi / recsearch</code> identifié et validé sur le matériel réel</li>
+              <li>Recherche directe confirmée sans session Web préalable ni cookies HTTP</li>
+              <li>Une journée de test a retourné 50 sessions, avec pagination du lecteur officiel identifiée</li>
+              <li>Pipeline expérimental de lecture <code>flv.cgi → FLV → HEVC → SDL2</code></li>
+              <li>Accès EseeCloud / Cloud P2P validé en Wi-Fi et en 5G</li>
             </ul>
-            <a class="text-link" href="https://github.com/PattooDev/GigaPaTChat" rel="noreferrer">Ouvrir le dépôt GitHub →</a>
+            <a class="text-link" href="https://github.com/PattooDev/GigaPaTChat" rel="noreferrer">Ouvrir le dépôt GitHub →</a><br>
+            <a class="text-link" href="https://github.com/PattooDev/GigaPaTChat/blob/main/docs/LECTURE_NVR.md" rel="noreferrer">Voir l’état du développement Lecture NVR →</a>
           </article>
         </div>
       </div>
