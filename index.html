@@ -54,10 +54,10 @@
           <article class="card">
             <div class="card-top">
               <span class="badge">Deepin • Sécurité</span>
-              <span class="version">v0.4.1 stable</span>
+              <span class="version">v0.4.2 stable</span>
             </div>
             <h3>PatSecure</h3>
-            <p>Outil Bash d'audit de sécurité et de maintenance pour Deepin Linux. La v0.4.1 affine fortement l'analyse réseau pour réduire les faux avertissements sans masquer les services qui méritent réellement une vérification.</p>
+            <p>Outil Bash d'audit de sécurité et de maintenance pour Deepin Linux. La v0.4.2 fiabilise le diagnostic des mises à jour APT tout en conservant l'analyse réseau contextuelle et l'audit strictement en lecture seule.</p>
             <ul>
               <li>Classification des sockets selon le protocole, la portée réseau, le port et le processus associé</li>
               <li>Boucle locale <code>127.0.0.1</code> / <code>::1</code> classée <strong>OK</strong></li>
@@ -66,11 +66,13 @@
               <li>Regroupement des doublons IPv4/IPv6 dans l'affichage synthétique</li>
               <li>Deux rapports séparés : privé et partageable, sans IP, MAC, nom de machine ni nom d'utilisateur dans le rapport partageable</li>
               <li>Contrôle UFW, politique entrante, IPv6 et UPnP/IGD sans afficher d'adresse externe</li>
+              <li>Âge du cache APT contrôlé sans lancer <code>apt update</code> pendant l'audit : OK jusqu'à 48 h, INFO entre 48 h et 7 jours, ATTENTION au-delà</li>
+              <li>Comptage des mises à jour APT rendu indépendant du texte d'en-tête et de la langue d'affichage</li>
               <li>PatSecure ne déduit jamais une exposition Internet à partir de <code>ss</code> seul</li>
-              <li>Validation réelle sur Deepin 25 : <strong>12 OK, 12 INFO, 0 ATTENTION, 0 ERREUR</strong></li>
+              <li>Validation réelle sur Deepin 25 : <strong>13 OK, 12 INFO, 0 ATTENTION, 0 ERREUR</strong> ; tests APT : <strong>4 PASS, 0 FAIL</strong></li>
             </ul>
             <a class="text-link" href="https://github.com/PattooDev/PatSecure" rel="noreferrer">Ouvrir le dépôt GitHub →</a><br>
-            <a class="text-link" href="https://github.com/PattooDev/PatSecure/blob/main/CHANGELOG.md" rel="noreferrer">Voir les changements de la v0.4.1 →</a>
+            <a class="text-link" href="https://github.com/PattooDev/PatSecure/blob/main/CHANGELOG.md" rel="noreferrer">Voir les changements de la v0.4.2 →</a>
           </article>
 
           <article class="card">
