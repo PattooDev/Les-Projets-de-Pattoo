@@ -7,3 +7,94 @@
 .pepite-card h3{margin-top:20px}
 .pepites-note{margin:24px 0 0;font-size:.9rem;color:#7f8a99}
 @media(max-width:900px){.pepite-grid{grid-template-columns:1fr}}
+
+
+/* La Cabane de Pattoo */
+.cabane-section{
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(circle at 12% 15%,rgba(212,155,87,.16),transparent 28%),
+    radial-gradient(circle at 88% 75%,rgba(74,144,226,.12),transparent 30%),
+    #0c1016;
+  border-top:1px solid rgba(255,255,255,.06);
+  border-bottom:1px solid rgba(255,255,255,.06);
+}
+.cabane-section:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  opacity:.16;
+  background-image:
+    linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+  background-size:28px 28px;
+}
+.cabane-section .wrap{position:relative}
+.cabane-hero{
+  display:grid;
+  grid-template-columns:minmax(0,1.5fr) minmax(240px,.5fr);
+  gap:42px;
+  align-items:center;
+  padding:42px;
+  border:1px solid rgba(212,155,87,.22);
+  border-radius:26px;
+  background:linear-gradient(135deg,rgba(212,155,87,.09),rgba(255,255,255,.025));
+  box-shadow:0 28px 70px rgba(0,0,0,.2);
+}
+.cabane-kicker{
+  display:inline-block;
+  margin:0 0 12px!important;
+  color:#e2b77f!important;
+  font-size:.82rem;
+  font-weight:900;
+  letter-spacing:.22em;
+}
+.cabane-copy h2{font-size:clamp(2.8rem,6vw,5.4rem);max-width:760px}
+.cabane-lead{font-size:1.18rem;max-width:760px}
+.cabane-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.cabane-sign{
+  min-height:260px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  border:1px solid rgba(226,183,127,.24);
+  border-radius:24px;
+  background:linear-gradient(180deg,rgba(226,183,127,.1),rgba(0,0,0,.12));
+  transform:rotate(1.5deg);
+}
+.cabane-roof{font-size:5rem;line-height:1;color:#e2b77f;text-shadow:0 12px 30px rgba(0,0,0,.35)}
+.cabane-sign strong{font-size:2rem;margin-top:12px}
+.cabane-sign small{margin-top:4px;color:#8f9aaa;letter-spacing:.08em}
+.cabane-gallery{
+  display:grid;
+  grid-template-columns:1.35fr 1fr 1fr;
+  gap:18px;
+  margin-top:20px;
+}
+.cabane-tile{
+  min-height:260px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding:26px;
+  border:1px solid rgba(255,255,255,.09);
+  border-radius:20px;
+  background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.018));
+}
+.cabane-tile-large{background:linear-gradient(145deg,rgba(212,155,87,.13),rgba(255,255,255,.025))}
+.cabane-number{font-size:.78rem;font-weight:900;letter-spacing:.12em;color:#e2b77f}
+.cabane-tile h3{font-size:1.55rem;margin:8px 0}
+.cabane-tile p{margin-bottom:0}
+.cabane-note{margin:24px 0 0;font-size:.9rem;color:#7f8a99}
+@media(max-width:900px){
+  .cabane-hero{grid-template-columns:1fr;padding:30px}
+  .cabane-sign{min-height:190px}
+  .cabane-gallery{grid-template-columns:1fr}
+}
+@media(max-width:560px){
+  .cabane-hero{padding:24px}
+}
