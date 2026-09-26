@@ -69,7 +69,7 @@
 .cabane-roof{font-size:5rem;line-height:1;color:#e2b77f;text-shadow:0 12px 30px rgba(0,0,0,.35)}
 .cabane-sign strong{font-size:2rem;margin-top:12px}
 .cabane-sign small{margin-top:4px;color:#8f9aaa;letter-spacing:.08em}
-.cabane-gallery{
+.cabane-intro-grid{
   display:grid;
   grid-template-columns:1.35fr 1fr 1fr;
   gap:18px;
@@ -93,8 +93,26 @@
 @media(max-width:900px){
   .cabane-hero{grid-template-columns:1fr;padding:30px}
   .cabane-sign{min-height:190px}
-  .cabane-gallery{grid-template-columns:1fr}
+  .cabane-intro-grid{grid-template-columns:1fr}
+  .cabane-photo-grid{grid-template-columns:1fr 1fr}
+  .cabane-photo-featured,.cabane-photo-wide{grid-column:1/-1}
 }
 @media(max-width:560px){
   .cabane-hero{padding:24px}
+}
+
+.cabane-gallery-head{display:flex;justify-content:space-between;gap:28px;align-items:end;margin:54px 0 20px}
+.cabane-gallery-head h3{font-size:clamp(2rem,4vw,3rem);margin:0}
+.cabane-gallery-head p{max-width:520px;margin:0}
+.cabane-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.cabane-photo{margin:0;min-height:250px;border:1px solid rgba(255,255,255,.09);border-radius:20px;overflow:hidden;background:#111720}
+.cabane-photo-featured{grid-column:span 2;grid-row:span 2;min-height:520px}
+.cabane-photo-wide{grid-column:1/-1;min-height:360px}
+.cabane-photo img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.cabane-photo:hover img{transform:scale(1.025)}
+@media(max-width:700px){
+  .cabane-gallery-head{display:block}
+  .cabane-gallery-head p{margin-top:12px}
+  .cabane-photo-grid{grid-template-columns:1fr}
+  .cabane-photo-featured,.cabane-photo-wide{grid-column:auto;grid-row:auto;min-height:300px}
 }
