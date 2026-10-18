@@ -116,3 +116,14 @@
   .cabane-photo-grid{grid-template-columns:1fr}
   .cabane-photo-featured,.cabane-photo-wide{grid-column:auto;grid-row:auto;min-height:300px}
 }
+
+/* Sélection Linux : illustration et fiches du 18 octobre 2026. */
+.linux-selection{display:grid;grid-template-columns:minmax(220px,380px) minmax(0,1fr);align-items:center;gap:32px;margin:8px 0 36px;padding:24px;border:1px solid rgba(67,210,241,.3);border-radius:22px;background:linear-gradient(135deg,#0c2136,#111923)}
+.linux-selection img{display:block;width:100%;height:auto;border-radius:16px}
+.linux-selection h2{margin:10px 0 16px;font-size:clamp(1.65rem,3vw,2.4rem);line-height:1.2}
+.linux-selection .eyebrow{color:#66dff5}
+.linux-selection a{color:#8feaff}
+.linux-model-note{font-size:.9rem;line-height:1.65;color:#b9c9d8}
+.tool-address{display:block;overflow-wrap:anywhere;color:#8feaff;font-size:.85rem;line-height:1.5;margin-top:6px}
+#outil-localsend{scroll-margin-top:24px}
+@media(max-width:700px){.linux-selection{grid-template-columns:1fr;padding:18px;gap:18px}.linux-poster{max-width:420px;width:100%;margin:auto}}
