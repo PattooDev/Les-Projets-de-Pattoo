@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Les balades en Fatbike de Pattoo : trois aventures insolites en Chalosse, des photos des lieux et des traces GPS officielles à télécharger.">
+<title>Les balades en Fatbike — Les projets de Pattoo</title>
+<link rel="canonical" href="https://les-projets-de-pattoo.vercel.app/balades-fatbike.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="🚴 Les balades en Fatbike de Pattoo — Curiosités de Chalosse">
+<meta property="og:description" content="Sur les rails du passé, le long de l'Adour et sur les traces de la Dame de Brassempouy : 3 idées de sorties, photos et GPX officiels.">
+<meta property="og:url" content="https://les-projets-de-pattoo.vercel.app/balades-fatbike.html">
+<meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/La%20Chalosse%2C%20Montfort-en-Chalosse%2C%202025.jpg?width=1200">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css">
+<style>
+:root{--vtt:#b3eeae;--vtt-muted:#b5c4d0;--vtt-stroke:rgba(255,255,255,.13)}
+.fatbike-top{padding:32px 0 70px;background:radial-gradient(ellipse at 72% 16%,rgba(65,169,120,.24),transparent 48%),linear-gradient(160deg,#0d1920,#0b0e13)}
+.fatbike-nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:40px}
+.fatbike-kicker{margin-bottom:12px;color:var(--vtt);font-weight:850;letter-spacing:.13em;font-size:.79rem}
+.fatbike-top h1{font-size:clamp(2.7rem,7vw,5.2rem);line-height:1.07;margin:0 0 22px}
+.fatbike-lead{font-size:1.22rem;max-width:790px;color:#d2e1db}
+.fatbike-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:38px}
+.fatbike-hero-figure{margin:0;min-width:0}
+.fatbike-hero-figure img{display:block;width:100%;height:335px;object-fit:cover;border-radius:24px;border:1px solid var(--vtt-stroke)}
+.fatbike-caption{font-size:.76rem;color:#aab7c1;margin:9px 0 0;line-height:1.5}
+.fatbike-caption a{color:#b2f3d1}
+.fatbike-strip{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+.fatbike-pill{display:inline-block;border:1px solid rgba(148,231,177,.25);border-radius:999px;padding:5px 12px;background:rgba(67,167,109,.09);font-size:.82rem;color:#d4f8d7}
+.fatbike-intro{padding:35px 0 22px}
+.fatbike-notice{border-left:4px solid #afdcae;padding:16px 22px;border-radius:0 12px 12px 0;background:#13201b;color:#d6e9dc;margin:14px 0 20px}
+.fatbike-notice p{margin:0}
+.fatbike-routes{display:grid;gap:28px;margin:30px auto 50px}
+.fatbike-route{overflow:hidden;border:1px solid var(--vtt-stroke);border-radius:23px;background:#111820}
+.fatbike-route-header{display:flex;gap:24px;align-items:stretch}
+.fatbike-photo{display:block;width:39%;min-height:320px;object-fit:cover;flex-shrink:0}
+.fatbike-route-copy{padding:30px 28px 22px 4px;flex:1;min-width:0}
+.fatbike-index{font-size:.78rem;color:#9be3aa;letter-spacing:.12em;font-weight:850}
+.fatbike-route h2{font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.12;margin:8px 0 10px}
+.fatbike-route p,.fatbike-details p{color:#c1cbd4}
+.fatbike-route h3{font-size:1.12rem;margin:0 0 9px}
+.fatbike-details{border-top:1px solid var(--vtt-stroke);padding:22px 28px 28px}
+.fatbike-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.fatbike-list{margin:10px 0;padding-left:20px;color:#d2dee4}
+.fatbike-actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.fatbike-actions .button{font-size:.92rem}
+.fatbike-actions .button.primary{background:#b3eeae;color:#122317;border-color:#b3eeae}
+.fatbike-fine{font-size:.87rem;color:#9babb6!important;line-height:1.6}
+.fatbike-map-link{color:#a7e9c1;word-break:break-word}
+.fatbike-photo-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:18px 0 8px}
+.fatbike-photo-row figure{margin:0}
+.fatbike-photo-row img{width:100%;height:250px;object-fit:cover;border-radius:16px;display:block}
+.fatbike-bottom{padding:45px 0 70px;border-top:1px solid var(--vtt-stroke)}
+.fatbike-bottom h2{font-size:clamp(1.7rem,3.5vw,2.6rem)}
+.fatbike-bottom .card{max-width:950px}
+.fatbike-footnote{font-size:.86rem;color:#9db0bc}
+a:focus-visible{outline:3px solid var(--vtt);outline-offset:3px}
+@media(max-width:860px){.fatbike-hero-grid{grid-template-columns:1fr}.fatbike-route-header{flex-direction:column}.fatbike-photo{width:100%;min-height:0;height:260px}.fatbike-route-copy{padding:6px 22px 22px}.fatbike-details{padding:22px}.fatbike-grid{grid-template-columns:1fr}}
+@media(max-width:540px){.fatbike-top{padding-top:24px}.fatbike-hero-figure img{height:230px}.fatbike-photo-row{grid-template-columns:1fr}.fatbike-photo-row img{height:230px}}
+</style>
+</head>
+<body>
+<header class="fatbike-top">
+<div class="wrap">
+<nav class="fatbike-nav" aria-label="Navigation">
+<a class="button" href="index.html">← Les projets de Pattoo</a>
+<a class="button" href="pepites.html">✨ Les Pépites</a>
+<a class="button" href="patradio.html">📻 PatRadio</a>
+</nav>
+<div class="fatbike-hero-grid">
+<div>
+<p class="fatbike-kicker">LES DÉCOUVERTES DE PATTOO · CHALOSSE &amp; LANDES</p>
+<h1>🚴 Les balades<br>en Fatbike</h1>
+<p class="fatbike-lead">Le nez au vent, le regard curieux et l'envie de voir ce qui se cache derrière le prochain virage !</p>
+<p>À bord de mon fatbike électrique, je pars explorer les Landes autrement : anciennes voies ferrées, fontaines oubliées, chemins de l'Adour, châteaux étonnants et traces de la préhistoire. Pas besoin d'aller au bout du monde pour être dépaysé.</p>
+<div class="fatbike-strip"><span class="fatbike-pill">Départ : Garrey (40180)</span><span class="fatbike-pill">3 aventures à découvrir</span><span class="fatbike-pill">Objectif : 50–60 km A/R</span></div>
+<div class="hero-actions"><a class="button primary" href="#parcours">Voir les 3 balades ↓</a><a class="button" href="#gps">Les traces GPS et précautions</a></div>
+</div>
+<figure class="fatbike-hero-figure">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/La%20Chalosse%2C%20Montfort-en-Chalosse%2C%202025.jpg?width=1000" alt="Panorama des collines de la Chalosse depuis Montfort-en-Chalosse" loading="eager" referrerpolicy="no-referrer">
+<figcaption class="fatbike-caption">La Chalosse vue depuis Montfort — photo <a href="https://commons.wikimedia.org/wiki/File:La_Chalosse%2C_Montfort-en-Chalosse%2C_2025.jpg" target="_blank" rel="noopener noreferrer">Antimuonium, CC BY-SA 4.0</a> (Wikimedia Commons).</figcaption>
+</figure>
+</div>
+</div>
+</header>
+<main>
+<section class="fatbike-intro" id="parcours"><div class="wrap">
+<p class="eyebrow">TROIS IDÉES D'EXPLORATION</p>
+<h2>Des curiosités à deux coups de pédale</h2>
+<p>Les itinéraires ci-dessous sont des <strong>propositions de sorties au départ de Garrey</strong>. Leurs <strong>tronçons GPS officiels</strong> sont documentés et téléchargeables ; les raccordements entre Garrey et ces circuits ne sont pas encore calculés ni reconnus sur le terrain. La distance cible de 50 à 60 km aller-retour <strong>reste à vérifier</strong> : ce n'est pas une distance GPS mesurée.</p>
+<div class="fatbike-notice"><p><strong>🧭 À savoir avant de partir :</strong> les fichiers GPX proposés décrivent des sections officielles, <strong>pas les trois boucles complètes depuis Garrey</strong>. Ne les suis donc pas comme des traces porte-à-porte. Garde une application de navigation adaptée et vérifie les accès et déviations du jour.</p></div>
+<div class="fatbike-routes">
+<article class="fatbike-route" id="rails">
+<div class="fatbike-route-header">
+<img class="fatbike-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/La%20Chalosse%2C%20Montfort-en-Chalosse%2C%202025.jpg?width=1000" loading="lazy" alt="Paysage de Chalosse près de Montfort, étape de la voie verte" referrerpolicy="no-referrer">
+<div class="fatbike-route-copy"><span class="fatbike-index">BALADE 01 · PATRIMOINE FERROVIAIRE</span>
+<h2>Sur les rails du passé</h2>
+<p>Une voie ferrée transformée en chemin de liberté. Sous les arbres, on suit les courbes de l'ancienne ligne et on imagine les convois traversant autrefois la campagne.</p>
+<div class="fatbike-strip"><span class="fatbike-pill">VTT / VTC</span><span class="fatbike-pill">Gravier</span><span class="fatbike-pill">Facile à modéré</span></div>
+<p><strong>Idée de parcours :</strong> Garrey → Hinx → Gamarde-les-Bains → Montfort-en-Chalosse → Mugron, puis retour à Garrey.</p>
+</div></div>
+<div class="fatbike-details"><div class="fatbike-grid"><div>
+<h3>🔎 Les curiosités en chemin</h3>
+<ul class="fatbike-list">
+<li>Les anciens ponts et maisons de garde-barrière.</li>
+<li>À Montfort, la fontaine des Cent Marches, cachée au fond d'une bambouseraie (détour <strong>à pied</strong>).</li>
+<li>À Mugron, l'ancien chai de Rouge Garance et sa grande charpente.</li>
+</ul>
+</div><div>
+<h3>📍 Distances et GPS vérifiés</h3>
+<p><strong>21,3 km</strong> de voie verte de Hinx à Mugron, soit <strong>42,6 km pour l'aller-retour sur ce seul tronçon</strong>. Ajouter Garrey–Hinx A/R et les détours : distance totale non validée.</p>
+<div class="fatbike-actions">
+<a class="button primary" href="https://cdt40.media.tourinsoft.eu/upload/La-voie-verte-de-Chalosse.gpx" download>⬇ Télécharger le GPX officiel</a>
+<a class="button" href="https://cartelandes.com/poi/61826/details" target="_blank" rel="noopener noreferrer">Carte &amp; fiche officielle</a>
+</div>
+<p class="fatbike-fine">Le GPX fourni correspond à <strong>l'itinéraire complet de la voie verte</strong>, et non au seul tronçon Hinx–Mugron. De septembre à mars, vérifier les déviations saisonnières liées à la chasse à la palombe.</p>
+</div></div></div>
+</article>
+<article class="fatbike-route" id="adour">
+<div class="fatbike-route-header">
+<img class="fatbike-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Adour.jpg?width=1000" loading="lazy" alt="Vue nocturne de l'Adour à Dax, photographie d'ambiance du fleuve" referrerpolicy="no-referrer">
+<div class="fatbike-route-copy"><span class="fatbike-index">BALADE 02 · NATURE &amp; MÉMOIRE</span>
+<h2>L'Adour et les thermes oubliés</h2>
+<p>Des berges presque secrètes, des bois humides, un ancien bac et une source chaude : cette expédition a un petit parfum de voyage dans le temps.</p>
+<div class="fatbike-strip"><span class="fatbike-pill">VTT</span><span class="fatbike-pill">Terrain variable</span><span class="fatbike-pill">Modéré / technique</span></div>
+<p><strong>Idée de parcours :</strong> Garrey → ancien port de Hinx → Préchacq-les-Bains et le Trou de Madame → alentours de la confluence du Louts → retour à Garrey par les petites routes autorisées.</p>
+<p class="fatbike-caption">Photo du fleuve à Dax, <strong>illustrative</strong> (pas du sentier Hinx–Préchacq) — <a href="https://commons.wikimedia.org/wiki/File:Adour.jpg" target="_blank" rel="noopener noreferrer">Metalheart, CC BY-SA 3.0</a>.</p>
+</div></div>
+<div class="fatbike-details"><div class="fatbike-grid"><div>
+<h3>🔎 Les curiosités en chemin</h3>
+<ul class="fatbike-list">
+<li>L'ancien bac métallique de Hinx, témoin des traversées d'autrefois.</li>
+<li>Le <strong>Trou de Madame</strong> et ses traces de thermalisme à Préchacq-les-Bains.</li>
+<li>Les barthes, passerelles et paysages boisés du Louts et de l'Adour.</li>
+</ul>
+</div><div>
+<h3>📍 Distances et GPS vérifiés</h3>
+<p><strong>13,5 km</strong> pour le sentier officiel Hinx–Préchacq ; une <strong>autre boucle de 20,2 km</strong> existe à la confluence du Louts et de l'Adour. Ces deux tracés ne constituent <strong>pas</strong> une boucle assemblée depuis Garrey.</p>
+<div class="fatbike-actions">
+<a class="button primary" href="https://cdt24.media.tourinsoft.eu/upload/4HinxPrechacq.gpx" download>⬇ GPX Hinx–Préchacq</a>
+<a class="button" href="https://cdt40.media.tourinsoft.eu/upload/4.13.gpx" download>⬇ GPX Confluence</a>
+<a class="button" href="https://www.tourismelandes.com/itineraire/a-gamarde-les-bains-prechacq-les-bains-circuit-a-la-confluence-du-louts-et-de-ladour-itiaqu040v50cl3k/" target="_blank" rel="noopener noreferrer">Consulter le circuit</a>
+</div>
+<p class="fatbike-fine">Attention aux crues, à la boue, aux passerelles et aux éventuelles portions interdites aux vélos. Le circuit de la confluence est présenté comme pédestre et nécessite parfois un pied à terre.</p>
+</div></div></div>
+</article>
+<article class="fatbike-route" id="dame">
+<div class="fatbike-route-header">
+<img class="fatbike-photo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Ch%C3%A2teau%20de%20Gaujacq%20-%20cour%20int%C3%A9rieur%201.JPG?width=1000" loading="lazy" alt="Cour à arcades du château de Gaujacq" referrerpolicy="no-referrer">
+<div class="fatbike-route-copy"><span class="fatbike-index">BALADE 03 · CHÂTEAUX &amp; PRÉHISTOIRE</span>
+<h2>Au pays de la Dame</h2>
+<p>En quelques coups de pédale, on passe de l'élégance d'un château à l'Italie à un minuscule chef-d'œuvre préhistorique sculpté il y a des millénaires.</p>
+<div class="fatbike-strip"><span class="fatbike-pill">Petites routes</span><span class="fatbike-pill">Vélo / VTC</span><span class="fatbike-pill">Coteaux vallonnés</span></div>
+<p><strong>Idée de parcours :</strong> Garrey → Gaujacq → Brassempouy → Amou, puis retour vers Garrey. La boucle officielle s'effectue au départ d'Amou.</p>
+<p class="fatbike-caption">Cour du château de Gaujacq — <a href="https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Gaujacq_-_cour_int%C3%A9rieur_1.JPG" target="_blank" rel="noopener noreferrer">Cinoworus, CC BY-SA 3.0</a>.</p>
+</div></div>
+<div class="fatbike-details"><div class="fatbike-grid"><div>
+<h3>🔎 Les curiosités en chemin</h3>
+<ul class="fatbike-list"><li>Le château de Gaujacq et son étonnante cour à arcades.</li><li>Le PréhistoSite de Brassempouy et l'histoire de la Dame de Brassempouy.</li><li>Le village d'Amou, ses maisons et son patrimoine.</li></ul>
+</div><div>
+<h3>📍 Distances et GPS vérifiés</h3>
+<p><strong>22,1 km</strong> pour la boucle officielle « Au pays de la Dame » (départ à Amou). La liaison depuis Garrey et le kilométrage global restent à calculer.</p>
+<div class="fatbike-actions">
+<a class="button primary" href="https://www.cirkwi.com/fr/exporter-gpx/192682_0?mb_id_outil=114924&amp;mb_use_temp=1">⬇ Télécharger le GPX de la boucle</a>
+<a class="button" href="https://rando.landes.fr/?mb_id=192682&amp;mb_page=circuit" target="_blank" rel="noopener noreferrer">Circuit officiel du Département</a>
+</div>
+<p class="fatbike-fine">Si le téléchargement direct est indisponible, cliquer sur « Télécharger GPX » dans la fiche départementale. Vérifier les horaires des visites du château et du PréhistoSite avant de partir.</p>
+</div></div>
+<div class="fatbike-photo-row">
+<figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Dame%20de%20Brassempouy.jpg?width=1000" loading="lazy" alt="La Dame de Brassempouy, statuette paléolithique conservée au Musée d'Archéologie nationale" referrerpolicy="no-referrer"><figcaption class="fatbike-caption">La Dame de Brassempouy (original conservé à Saint-Germain-en-Laye) — <a href="https://commons.wikimedia.org/wiki/File:Dame_de_Brassempouy.jpg" target="_blank" rel="noopener noreferrer">BastienM, CC BY-SA 3.0</a>.</figcaption></figure>
+<figure><img src="https://commons.wikimedia.org/wiki/Special:FilePath/La%20Chalosse%2C%20Montfort-en-Chalosse%2C%202025.jpg?width=1000" loading="lazy" alt="Paysage des coteaux chalossais" referrerpolicy="no-referrer"><figcaption class="fatbike-caption">Les coteaux chalossais — <a href="https://commons.wikimedia.org/wiki/File:La_Chalosse%2C_Montfort-en-Chalosse%2C_2025.jpg" target="_blank" rel="noopener noreferrer">Antimuonium, CC BY-SA 4.0</a>.</figcaption></figure>
+</div>
+</div>
+</article>
+</div>
+</div></section>
+<section class="fatbike-bottom" id="gps"><div class="wrap">
+<p class="eyebrow">AVENTURES RESPONSABLES</p>
+<h2>Le plaisir de découvrir, sans mauvaise surprise</h2>
+<div class="card">
+<p><strong>🗺️ Traces GPS :</strong> tous les liens GPX ci-dessus renvoient aux itinéraires proposés par les organismes touristiques ou le Département. Ils sont fournis comme <strong>tronçons documentés</strong>, non comme des sorties complètes depuis mon domicile. Les fichiers sont hébergés par leurs fournisseurs ; certains téléchargements peuvent dépendre de leur site.</p>
+<p><strong>🌧️ Saison :</strong> contrôler la météo, les crues de l'Adour, les restrictions forestières et les déviations de la voie verte. Respecter les chemins autorisés, les propriétés privées, les promeneurs et la faune.</p>
+<p><strong>🔋 Fatbike électrique :</strong> garder de la marge pour rentrer. Le gravier, le vent et les côtes peuvent faire chuter l'autonomie.</p>
+<p><strong>📸 Une rubrique à faire vivre :</strong> bientôt, j'ajouterai mes propres photos et mes distances réellement parcourues. Un parcours n'est définitivement « testé par Pattoo » que lorsque je l'ai moi-même roulé !</p>
+<p class="fatbike-footnote">Photos affichées depuis Wikimedia Commons et créditées individuellement avec leur licence. Sources des itinéraires : Terres de Chalosse Tourisme, Tourisme Landes, Carte Landes, Cirkwi et Département des Landes. Mise en ligne : novembre 2026.</p>
+</div>
+<div class="hero-actions"><a class="button" href="index.html">← Retour aux projets</a><a class="button" href="#parcours">↑ Revoir les balades</a></div>
+</div></section>
+</main>
+<footer><div class="wrap footer-inner"><span>Les projets de Pattoo · Les balades en Fatbike</span><span>Curiosité · Liberté · Respect des chemins · 2026</span></div></footer>
+</body></html>
