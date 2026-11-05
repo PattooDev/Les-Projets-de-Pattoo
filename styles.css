@@ -127,3 +127,16 @@
 .tool-address{display:block;overflow-wrap:anywhere;color:#8feaff;font-size:.85rem;line-height:1.5;margin-top:6px}
 #outil-localsend{scroll-margin-top:24px}
 @media(max-width:700px){.linux-selection{grid-template-columns:1fr;padding:18px;gap:18px}.linux-poster{max-width:420px;width:100%;margin:auto}}
+
+/* La Cabane de Pattoo : nouveautés de novembre 2026 */
+.cabane-now{margin:22px 0 32px;padding:24px;border:1px solid rgba(255,255,255,.10);border-radius:22px;background:linear-gradient(130deg,#16212c,#0d151d)}
+.cabane-now h4{font-size:clamp(1.4rem,2.6vw,2rem);margin:8px 0 12px}
+.cabane-now>p:not(.eyebrow){margin:0 0 22px;max-width:860px;line-height:1.65}
+.cabane-now-grid{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:16px;align-items:stretch}
+.cabane-now-item{margin:0;min-width:0;display:flex;flex-direction:column;overflow:hidden;border:1px solid rgba(255,255,255,.10);border-radius:16px;background:#0a121c}
+.cabane-now-item img,.cabane-now-item video{width:100%;height:380px;display:block;object-fit:contain;background:#080b0f}
+.cabane-now-exterior img{object-fit:cover}
+.cabane-now-item figcaption{padding:14px 16px;color:#dbe4eb;font-size:.9rem;line-height:1.4}
+@media(max-width:900px){.cabane-now-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cabane-now-exterior{grid-column:1/-1}}
+@media(max-width:560px){.cabane-now{padding:16px}.cabane-now-grid{grid-template-columns:1fr}.cabane-now-exterior{grid-column:auto}.cabane-now-item img,.cabane-now-item video{height:auto;max-height:520px}.cabane-now-portrait img,.cabane-now-portrait video{min-height:320px}}
+
