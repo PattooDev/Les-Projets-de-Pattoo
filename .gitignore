@@ -1,0 +1,22 @@
+# Secret values and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.p12
+*.pfx
+*.key
+*.secret
+credentials.json
+service-account*.json
+
+# Local caches / temporary files
+.DS_Store
+*~
+*.swp
+*.swo
+*.log
+node_modules/
+dist/
+.cache/
