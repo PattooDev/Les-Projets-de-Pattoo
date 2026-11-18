@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Techno & Découvertes — Les projets de Pattoo</title><meta name="description" content="Trois découvertes technologiques vérifiées chaque jour, visibles pendant 72 heures.">
+<link rel="canonical" href="https://les-projets-de-pattoo.vercel.app/techno.html"><link rel="stylesheet" href="styles.css">
+<style>
+.tech-hero{padding:48px 0;background:radial-gradient(ellipse at top,rgba(74,170,196,.15),transparent 65%),#0b0e13}
+.tech-hero h1{font-size:clamp(2.2rem,6vw,3.8rem);margin:20px 0}
+.tech-meta{color:#aab9c9;font-size:.9rem}.tech-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr));gap:20px}
+.tech-card{min-width:0}.tech-card img{display:block;width:100%;height:175px;object-fit:cover;border-radius:12px;margin-bottom:14px}
+.tech-card a{overflow-wrap:anywhere}.tech-card time{display:block;margin-bottom:12px;color:#aab9c9}
+.tech-empty{padding:26px;border:1px solid #45505e;border-radius:12px}
+</style></head><body>
+<header class="tech-hero"><div class="wrap"><a class="button" href="index.html">← Les projets de Pattoo</a>
+<p class="eyebrow" style="margin-top:32px">ACTUALITÉS • IA • LINUX • INVENTIONS • WEB</p>
+<h1>🔬 Techno &amp; Découvertes</h1><p class="lead">Trois découvertes sélectionnées chaque jour, vérifiées et accompagnées de leurs sources. Les articles restent visibles 72 heures, puis quittent automatiquement cette page.</p>
+<p class="tech-meta">Lecture gratuite • Liens vers les sources • Aucun compte requis</p></div></header>
+<main><section class="section"><div class="wrap"><div class="section-head"><h2>Les découvertes récentes</h2><p>Les articles sont affichés par date de publication sur ce site, du plus récent au plus ancien.</p></div>
+<div id="tech-status" class="tech-empty" role="status">Chargement des découvertes…</div><div id="tech-list" class="tech-grid" aria-live="polite"></div>
+<p class="tech-meta" style="margin-top:28px">Les résumés sont indépendants des éditeurs cités. Les dates et les liens sont fournis pour vérifier chaque information. Une découverte plus ancienne est explicitement signalée.</p>
+</div></section></main>
+<footer><div class="wrap footer-inner"><span>Les projets de Pattoo</span><span>Techno &amp; Découvertes • 2026</span></div></footer>
+<script>
+(async function(){
+const list=document.getElementById('tech-list'),status=document.getElementById('tech-status');
+try{
+ const response=await fetch('techno-articles.json',{cache:'no-store'});
+ if(!response.ok)throw new Error('Source indisponible');
+ const payload=await response.json();
+ if(!Array.isArray(payload.articles))throw new Error('Format invalide');
+ const now=Date.now(),windowMs=72*60*60*1000;
+ const safeUrl=(s)=>{try{const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
+ const recent=payload.articles.filter(a=>{const t=Date.parse(a.published_at);return Number.isFinite(t)&&t<=now&&now-t<windowMs&&a.title&&a.summary&&safeUrl(a.source_url)})
+ .sort((a,b)=>Date.parse(b.published_at)-Date.parse(a.published_at)).slice(0,9);
+ if(!recent.length){status.textContent='Aucune découverte publiée au cours des dernières 72 heures. Revenez bientôt !';return}
+ status.hidden=true;
+ for(const a of recent){
+ const article=document.createElement('article');article.className='card tech-card';
+ if(a.image_url&&safeUrl(a.image_url)){const img=document.createElement('img');img.src=safeUrl(a.image_url);img.alt=a.image_alt||'Illustration de la découverte';img.loading='lazy';img.referrerPolicy='no-referrer';article.append(img)}
+ const category=document.createElement('p');category.className='eyebrow';category.textContent=a.category||'Technologie';article.append(category);
+ const title=document.createElement('h3');title.textContent=a.title;article.append(title);
+ const date=document.createElement('time');date.dateTime=a.published_at;date.textContent='Publié sur le site le '+new Intl.DateTimeFormat('fr-FR',{dateStyle:'long',timeZone:'Europe/Paris'}).format(new Date(a.published_at));article.append(date);
+ if(a.source_date){const original=document.createElement('p');original.className='tech-meta';original.textContent='Source : '+a.source_date+(a.is_older?' • Découverte plus ancienne':'');article.append(original)}
+ const summary=document.createElement('p');summary.textContent=a.summary;article.append(summary);
+ const link=document.createElement('a');link.className='text-link';link.href=safeUrl(a.source_url);link.target='_blank';link.rel='noopener noreferrer';link.textContent='Lire la source →';article.append(link);
+ list.append(article)
+ }
+}catch(e){status.textContent='Les découvertes sont momentanément indisponibles. Réessayez plus tard.'}
+})();
+</script></body></html>
