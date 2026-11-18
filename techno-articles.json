@@ -1,4 +1,32 @@
 {
   "schema_version": 1,
-  "articles": []
+  "articles": [
+    {
+      "title": "Relate : une base de données libre et locale pour les agents IA",
+      "summary": "Neo4j a publié Relate, une base de données en graphe open source sous licence Apache 2.0. Elle s'intègre à une application sans serveur séparé et peut fonctionner depuis Python, JavaScript ou le navigateur grâce à WebAssembly. Une piste à explorer pour conserver les relations entre les informations d'un assistant local.",
+      "category": "IA et logiciels libres",
+      "published_at": "2026-11-18T09:15:00+01:00",
+      "source_url": "https://neo4j.com/blog/news/meet-relate-by-neo4j-an-embedded-database-for-ai-agents/",
+      "source_date": "11 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "Gemini Decisions API : des décisions multimodales rapides",
+      "summary": "Google propose une API capable d'évaluer jusqu'à 1 000 questions ou choix sur des textes, images, sons, vidéos ou PDF. Elle vise notamment le routage des outils et la classification. Un palier gratuit de prototypage est annoncé, mais le service est hébergé et la tarification payante existe.",
+      "category": "Intelligence artificielle",
+      "published_at": "2026-11-18T09:15:00+01:00",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source_date": "11 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "Agent Name Service : un standard ouvert pour identifier les agents IA",
+      "summary": "La Linux Foundation accueille Agent Name Service (ANS), une spécification ouverte s'appuyant sur DNS pour publier et vérifier l'identité des agents IA. L'objectif est de faciliter leur découverte et de limiter les usurpations entre services. C'est une initiative technique, pas une application à installer.",
+      "category": "Open source et sécurité",
+      "published_at": "2026-11-18T09:15:00+01:00",
+      "source_url": "https://www.linuxfoundation.org/press/linux-foundation-welcomes-agent-name-service-to-bring-verifiable-identity-and-discovery-to-ai-agents",
+      "source_date": "10 novembre 2026",
+      "is_older": true
+    }
+  ]
 }
