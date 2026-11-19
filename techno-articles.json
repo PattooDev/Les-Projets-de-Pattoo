@@ -2,6 +2,33 @@
   "schema_version": 1,
   "articles": [
     {
+      "title": "Proton lance Lumo Desktop sur Linux, Windows et macOS",
+      "summary": "Proton a publié le 17 novembre une version bureau de son assistant Lumo pour Linux, Windows et macOS. Elle ajoute des connecteurs vers des fichiers et services, des tâches programmées et des compétences réutilisables, avec des autorisations configurables. Le code source est annoncé comme public ; les fonctions et conditions d'accès peuvent varier selon l'offre.",
+      "category": "IA et logiciels libres",
+      "published_at": "2026-11-19T08:01:13+01:00",
+      "source_url": "https://proton.me/blog/lumo-desktop-features",
+      "source_date": "17 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "GitHub CLI : attendre un événement de pull request sans interrogation répétée",
+      "summary": "La version 2.105.0 de GitHub CLI introduit en préversion « gh event listen », pour attendre un événement de pull request et recevoir les changements en JSON. Cela peut simplifier des scripts de suivi de dépôts, mais nécessite l'accès à GitHub Event Streams, encore soumis à une liste d'attente.",
+      "category": "Linux et développement",
+      "published_at": "2026-11-19T08:01:13+01:00",
+      "source_url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
+      "source_date": "18 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "Rocky Linux 10.3 : nouvelle version gratuite orientée stabilité",
+      "summary": "La distribution libre Rocky Linux 10.3 est disponible depuis le 16 novembre, avec de nouvelles images d'installation, de conteneurs et de machines virtuelles. Elle intègre le noyau 6.12.0-264.16.1 et des outils de développement actualisés. Attention : cette distribution est distincte de Deepin, et ses exigences matérielles doivent être vérifiées avant installation.",
+      "category": "Linux et open source",
+      "published_at": "2026-11-19T08:01:13+01:00",
+      "source_url": "https://rockylinux.org/news/rocky-linux-10-3-ga-release",
+      "source_date": "16 novembre 2026",
+      "is_older": true
+    },
+    {
       "title": "Une alliance ouverte contre les escroqueries numériques",
       "summary": "La Linux Foundation annonce l'Open Financial Trust Alliance (OFTA), qui vise à rendre compatibles les méthodes de détection et de partage des informations sur les fraudes entre organisations. C'est une initiative de coopération technique, et non une application grand public à installer.",
       "category": "Logiciel libre et sécurité",
