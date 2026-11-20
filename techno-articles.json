@@ -2,6 +2,33 @@
   "schema_version": 1,
   "articles": [
     {
+      "title": "Replica : GitHub partage un outil de prototypage IA open source",
+      "summary": "GitHub présente Replica, un environnement de prototypage de design publié en open source. Il permet de créer et comparer des prototypes générés avec l'IA, de les affiner avec GitHub Copilot et de collaborer via un espace de partage. L'annonce date du 19 novembre, mais le projet avait été dévoilé quelques semaines auparavant ; l'utilisation de Copilot peut dépendre de son offre.",
+      "category": "IA et logiciels libres",
+      "published_at": "2026-11-20T08:22:05+01:00",
+      "source_url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "source_date": "19 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "Un cadre ouvert pour améliorer l'accessibilité des projets logiciels",
+      "summary": "GitHub met en avant son Open Source Accessibility Framework, élaboré avec des contributeurs concernés par l'accessibilité. Il propose quatre étapes de suivi public et encourage un fichier ACCESSIBILITY.md pour documenter les objectifs, limitations et signalements. Le cadre a été lancé en octobre et présenté dans un article du 19 novembre.",
+      "category": "Logiciels libres et accessibilité",
+      "published_at": "2026-11-20T08:22:05+01:00",
+      "source_url": "https://github.blog/open-source/maintainers/the-best-things-in-open-source-are-built-together/",
+      "source_date": "19 novembre 2026 (projet lancé en octobre)",
+      "is_older": true
+    },
+    {
+      "title": "Des rapports de bogues IA plus utiles pour les mainteneurs open source",
+      "summary": "Dans un projet pilote baptisé MDASH, GitHub et Microsoft ont transformé des milliers de signalements produits par l'IA en 99 rapports privés vérifiés, accompagnés de propositions de correction, pour six projets libres. Selon leur bilan du 17 novembre, plus de la moitié des problèmes signalés avaient déjà été corrigés. Il s'agit d'une expérimentation, pas d'un service grand public.",
+      "category": "IA et sécurité open source",
+      "published_at": "2026-11-20T08:22:05+01:00",
+      "source_url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+      "source_date": "17 novembre 2026",
+      "is_older": true
+    },
+    {
       "title": "Proton lance Lumo Desktop sur Linux, Windows et macOS",
       "summary": "Proton a publié le 17 novembre une version bureau de son assistant Lumo pour Linux, Windows et macOS. Elle ajoute des connecteurs vers des fichiers et services, des tâches programmées et des compétences réutilisables, avec des autorisations configurables. Le code source est annoncé comme public ; les fonctions et conditions d'accès peuvent varier selon l'offre.",
       "category": "IA et logiciels libres",
