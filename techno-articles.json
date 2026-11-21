@@ -2,6 +2,33 @@
   "schema_version": 1,
   "articles": [
     {
+      "title": "Raspberry Pi : des ingénieurs expliquent comment concevoir une carte électronique",
+      "summary": "Dans un entretien publié le 20 novembre, des ingénieurs de Raspberry Pi décrivent les étapes d'un prototype matériel : choix des composants, schéma, circuit imprimé, mesures et corrections. Ils partagent aussi des conseils de programmation et des idées de projets. Article gratuit à lire dans le navigateur, en anglais.",
+      "category": "Électronique et bricolage",
+      "published_at": "2026-11-21T08:04:23+01:00",
+      "source_url": "https://www.raspberrypi.com/news/ask-an-engineer-exclusive-advice-from-the-brains-behind-raspberry-pi/",
+      "source_date": "20 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "Raspberry Pi : un jeune créateur conçoit des outils d'accessibilité",
+      "summary": "Le portrait de Favor Brunner publié le 19 novembre présente notamment un distributeur de déodorant conçu pour des personnes ayant des difficultés de motricité, et un système Raspberry Pi de transcription et traduction d'annonces dans le métro. Des exemples inspirants de mécatronique utile ; ce sont des prototypes, pas des produits disponibles.",
+      "category": "Inventions et accessibilité",
+      "published_at": "2026-11-21T08:04:23+01:00",
+      "source_url": "https://www.raspberrypi.com/news/mechatronics-engineering-as-a-form-of-artistic-expression/",
+      "source_date": "19 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "GitHub : épingler jusqu'à 25 dépôts favoris dans son tableau de bord",
+      "summary": "Depuis le 20 novembre, GitHub permet de choisir les dépôts affichés dans la section Favoris de son tableau de bord. La sélection se synchronise avec GitHub Mobile et peut compter jusqu'à 25 dépôts. Une amélioration gratuite et pratique pour retrouver rapidement ses projets ; l'ancienne section Top repositories subsiste si le nouveau tableau de bord n'est pas activé.",
+      "category": "Développement et outils web",
+      "published_at": "2026-11-21T08:04:23+01:00",
+      "source_url": "https://github.blog/changelog/2026-11-20-pin-your-favorite-repositories-to-your-dashboard/",
+      "source_date": "20 novembre 2026",
+      "is_older": true
+    },
+    {
       "title": "Replica : GitHub partage un outil de prototypage IA open source",
       "summary": "GitHub présente Replica, un environnement de prototypage de design publié en open source. Il permet de créer et comparer des prototypes générés avec l'IA, de les affiner avec GitHub Copilot et de collaborer via un espace de partage. L'annonce date du 19 novembre, mais le projet avait été dévoilé quelques semaines auparavant ; l'utilisation de Copilot peut dépendre de son offre.",
       "category": "IA et logiciels libres",
@@ -53,33 +80,6 @@
       "published_at": "2026-11-19T08:01:13+01:00",
       "source_url": "https://rockylinux.org/news/rocky-linux-10-3-ga-release",
       "source_date": "16 novembre 2026",
-      "is_older": true
-    },
-    {
-      "title": "Une alliance ouverte contre les escroqueries numériques",
-      "summary": "La Linux Foundation annonce l'Open Financial Trust Alliance (OFTA), qui vise à rendre compatibles les méthodes de détection et de partage des informations sur les fraudes entre organisations. C'est une initiative de coopération technique, et non une application grand public à installer.",
-      "category": "Logiciel libre et sécurité",
-      "published_at": "2026-11-18T08:45:00+01:00",
-      "source_url": "https://www.linuxfoundation.org/press/linux-foundation-announces-the-open-financial-trust-alliance-to-strengthen-coordinated-protection-against-fraud-scams-and-financial-crime",
-      "source_date": "18 novembre 2026",
-      "is_older": false
-    },
-    {
-      "title": "OASIS-ERIS : mesurer les vibrations avec du matériel open source",
-      "summary": "Un système d'acquisition ouvert associe notamment des cartes ESP32-S3 et des convertisseurs analogique-numérique pour synchroniser plusieurs capteurs de vibrations avec une précision annoncée de l'ordre de dix microsecondes. Une piste pour les expérimentations en électronique et l'analyse de machines ; ce n'est pas un kit prêt à l'emploi.",
-      "category": "Électronique et inventions",
-      "published_at": "2026-11-18T08:45:00+01:00",
-      "source_url": "https://scienmag.com/open-source-acquisition-system-achieves-ten-microsecond-synchronization-across-multiple-sensor-boards/",
-      "source_date": "17 novembre 2026",
-      "is_older": true
-    },
-    {
-      "title": "Microsoft Ignite : de nouveaux modèles IA et outils de développement",
-      "summary": "Microsoft présente à Ignite 2026 des nouveautés pour sa plateforme Foundry, notamment de nouveaux modèles d'IA, le routage intelligent entre modèles et des possibilités supplémentaires d'utiliser des modèles ouverts. Ces services sont principalement destinés aux développeurs et entreprises, et ne sont pas nécessairement gratuits.",
-      "category": "Intelligence artificielle",
-      "published_at": "2026-11-18T08:45:00+01:00",
-      "source_url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/from-model-choice-to-your-durable-advantage-build-ai-that-keeps-improving/4573609",
-      "source_date": "17 novembre 2026",
       "is_older": true
     }
   ]
