@@ -2,6 +2,33 @@
   "schema_version": 1,
   "articles": [
     {
+      "title": "WebBrain : une extension Firefox avec IA locale et mode hors ligne",
+      "summary": "Mozilla présente WebBrain, une extension Firefox utilisant des modèles de langage hors ligne pour résumer des pages et automatiser certaines tâches. Les données de navigation restent sur l'appareil selon son développeur. Un niveau gratuit existe, mais Mozilla recommande au moins 16 Go de RAM ou un GPU doté de 16 Go de VRAM pour les modèles locaux ; vérifier les permissions avant tout essai.",
+      "category": "IA locale et Firefox",
+      "published_at": "2026-11-22T08:56:48+01:00",
+      "source_url": "https://blog.mozilla.org/addons/2026/11/20/developer-spotlight-webbrain/",
+      "source_date": "20 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "Mozilla prépare un nouvel espace pour les créateurs d'extensions Firefox",
+      "summary": "Mozilla annonce une refonte de son Developer Hub pour les extensions Firefox : suivi plus clair des soumissions, communications intégrées, navigation simplifiée et mode sombre. La préversion est accessible progressivement sur invitation ; déploiement plus large annoncé pour décembre, donc ce n'est pas encore disponible pour tous.",
+      "category": "Firefox et logiciels libres",
+      "published_at": "2026-11-22T08:56:48+01:00",
+      "source_url": "https://blog.mozilla.org/addons/2026/11/20/unveiling-the-all-new-firefox-add-on-developer-hub/",
+      "source_date": "20 novembre 2026",
+      "is_older": true
+    },
+    {
+      "title": "GitHub Desktop 3.7.0 : plusieurs comptes sur un même service",
+      "summary": "GitHub Desktop permet désormais d'ajouter plusieurs comptes GitHub.com ou Enterprise sur un même hôte et d'associer chaque dépôt au bon compte. Cette nouveauté de la version 3.7.0 concerne GitHub Desktop, pas l'outil en ligne de commande gh ; elle ne constitue pas une annonce de prise en charge native de Linux.",
+      "category": "Développement et outils",
+      "published_at": "2026-11-22T08:56:48+01:00",
+      "source_url": "https://github.blog/changelog/2026-11-19-github-desktop-now-supports-multiple-accounts-per-host/",
+      "source_date": "19 novembre 2026",
+      "is_older": true
+    },
+    {
       "title": "Raspberry Pi : des ingénieurs expliquent comment concevoir une carte électronique",
       "summary": "Dans un entretien publié le 20 novembre, des ingénieurs de Raspberry Pi décrivent les étapes d'un prototype matériel : choix des composants, schéma, circuit imprimé, mesures et corrections. Ils partagent aussi des conseils de programmation et des idées de projets. Article gratuit à lire dans le navigateur, en anglais.",
       "category": "Électronique et bricolage",
@@ -53,33 +80,6 @@
       "published_at": "2026-11-20T08:22:05+01:00",
       "source_url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
       "source_date": "17 novembre 2026",
-      "is_older": true
-    },
-    {
-      "title": "Proton lance Lumo Desktop sur Linux, Windows et macOS",
-      "summary": "Proton a publié le 17 novembre une version bureau de son assistant Lumo pour Linux, Windows et macOS. Elle ajoute des connecteurs vers des fichiers et services, des tâches programmées et des compétences réutilisables, avec des autorisations configurables. Le code source est annoncé comme public ; les fonctions et conditions d'accès peuvent varier selon l'offre.",
-      "category": "IA et logiciels libres",
-      "published_at": "2026-11-19T08:01:13+01:00",
-      "source_url": "https://proton.me/blog/lumo-desktop-features",
-      "source_date": "17 novembre 2026",
-      "is_older": true
-    },
-    {
-      "title": "GitHub CLI : attendre un événement de pull request sans interrogation répétée",
-      "summary": "La version 2.105.0 de GitHub CLI introduit en préversion « gh event listen », pour attendre un événement de pull request et recevoir les changements en JSON. Cela peut simplifier des scripts de suivi de dépôts, mais nécessite l'accès à GitHub Event Streams, encore soumis à une liste d'attente.",
-      "category": "Linux et développement",
-      "published_at": "2026-11-19T08:01:13+01:00",
-      "source_url": "https://github.blog/changelog/2026-11-18-wait-for-pull-request-events-with-github-cli/",
-      "source_date": "18 novembre 2026",
-      "is_older": true
-    },
-    {
-      "title": "Rocky Linux 10.3 : nouvelle version gratuite orientée stabilité",
-      "summary": "La distribution libre Rocky Linux 10.3 est disponible depuis le 16 novembre, avec de nouvelles images d'installation, de conteneurs et de machines virtuelles. Elle intègre le noyau 6.12.0-264.16.1 et des outils de développement actualisés. Attention : cette distribution est distincte de Deepin, et ses exigences matérielles doivent être vérifiées avant installation.",
-      "category": "Linux et open source",
-      "published_at": "2026-11-19T08:01:13+01:00",
-      "source_url": "https://rockylinux.org/news/rocky-linux-10-3-ga-release",
-      "source_date": "16 novembre 2026",
       "is_older": true
     }
   ]
